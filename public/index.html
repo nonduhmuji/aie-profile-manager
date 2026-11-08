@@ -1,0 +1,44 @@
+<
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>Login | Profile Manager</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+    <main class="container">
+        <div class="login-card">
+            <h1>Profile Manager</h1>
+            <h2>Welcome Back!</h2>
+            <p>Sign in to manage your profile</p>
+
+<!-- Login page for the Profile Manager application -->
+
+<!-- Form for entering user login credentials -->
+<form id="loginForm">
+
+    <!-- Username input field -->
+    <label for="username">Username</label>
+    <input type="text" id="username" required>
+
+    <!-- Password input field -->
+    <label for="password">Password</label>
+    <input type="password" id="password" required>
+
+    <!-- Submit login credentials -->
+    <button type="submit">Log In</button>
+
+    <!-- Display login errors when authentication fails -->
+    <p id="errorMessage" hidden></p>
+</form>
+
+        </div>
+    </main>
+
+    <script src="/login.js"></script>
+</body>
+</html>
